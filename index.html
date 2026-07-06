@@ -198,7 +198,8 @@
   /* ---------- Selected works ---------- */
   .works{background:var(--paper-2)}
   .works-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:40px;gap:20px;flex-wrap:wrap}
-  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
+  @media(max-width:1150px){.cards{grid-template-columns:repeat(2,1fr)}}
   .card{
     background:var(--paper);
     border:1px solid var(--line);
@@ -337,6 +338,17 @@
     </div>
     <div class="cards">
 
+      <article class="card">
+        <div class="card-img"><img src="/assets/img/story-summer-dress.jpg" alt="A pale summer dress on a hanger before a frosted window." loading="lazy"></div>
+        <div class="card-body">
+          <div>
+            <h3 class="card-title">The Summer Dress</h3>
+            <span class="card-genre">Flash Fiction · Forthcoming — Flash Fiction Magazine</span>
+          </div>
+          <svg class="card-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 4h11a1 1 0 0 1 1 1v15l-6.5-3.5L5 20V5a1 1 0 0 1 1-1Z"/></svg>
+        </div>
+      </article>
+
       <a class="card" href="/fiction/finger">
         <div class="card-img"><img src="/assets/img/story-finger.jpg" alt="A weathered hand rests on a call button; a constellation and a distant shore appear beyond the window." loading="lazy"></div>
         <div class="card-body">
@@ -403,6 +415,7 @@
     <div class="pubs-names">
       <a class="pub-name" href="https://www.flashfictionnorth.com/" target="_blank" rel="noopener"><span class="big">Flash Fiction North</span></a>
       <a class="pub-name" href="https://whitewallreview.com/a-grave-and-a-pebble/" target="_blank" rel="noopener"><span class="big">White Wall</span><span class="small">Review</span></a>
+      <a class="pub-name" href="https://flashfictionmagazine.com/" target="_blank" rel="noopener"><span class="big">Flash Fiction Magazine</span><span class="small">Forthcoming</span></a>
     </div>
     <p class="pubs-tail">and other journals and magazines.</p>
   </div>
