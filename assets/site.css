@@ -67,6 +67,7 @@ header{
 .page-head .credit b{font-style:normal;font-weight:500;color:var(--ink-soft)}
 .page-head .credit a{border-bottom:1px solid var(--line);padding-bottom:1px;transition:border-color .3s}
 .page-head .credit a:hover{border-color:var(--ink)}
+.page-head .praise{margin-top:.7rem;font-family:var(--display);font-style:italic;font-size:1.05rem;color:var(--muted)}
 .rule{width:64px;height:1px;background:var(--line);margin:34px auto}
 
 /* ---------- Prose ---------- */
