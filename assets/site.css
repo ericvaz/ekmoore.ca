@@ -79,6 +79,10 @@ header{
 }
 .prose em{font-style:italic}
 .finis{text-align:center;color:var(--muted);font-size:1.3rem;letter-spacing:.5em;padding:10px 0 60px}
+.continue{text-align:center;padding:6px 0 70px}
+.continue .rule{margin:0 auto 30px}
+.continue p{font-style:italic;color:var(--muted);font-size:1.05rem;margin-bottom:1.1rem}
+.continue .arrow-link{font-size:1.25rem}
 
 /* ---------- Story prev/next ---------- */
 .storynav{border-top:1px solid var(--line);background:var(--paper-2)}
